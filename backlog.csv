@@ -1,1 +1,13 @@
 id,category,title,description,priority,phase,status,estimate_hours,owner
+WS-001,Configuration,Setup workspace agile-genai,Clone and configure agile-genai for workspace-level management,high,workspace-setup,completed,1,Claude Code
+WS-002,Documentation,Catalog active projects,Identify and document all active projects with their status and purpose,high,workspace-setup,pending,2,Claude Code
+WS-003,Skill-Evolution,Explore hooks from hooks-mastery,Study and implement hooks from claude-code-hooks-mastery reference,high,skill-evolution-1,pending,4,Claude Code
+WS-004,Skill-Evolution,Create workspace sub-agents,Design and implement sub-agents for common workspace tasks,high,skill-evolution-1,pending,4,Claude Code
+WS-005,Skill-Evolution,Implement SessionStart hook,Auto-load project context when starting Claude Code session,medium,skill-evolution-1,pending,2,Claude Code
+WS-006,Skill-Evolution,Implement PreToolUse hook,Security and validation for tool executions,medium,skill-evolution-1,pending,2,Claude Code
+WS-007,Configuration,Create workspace commands,Custom slash commands for workspace workflows,medium,skill-evolution-1,pending,2,Claude Code
+WS-008,Integration,Sync RE4AI agile data,Integrate RE4AI project sprint data with workspace view,medium,project-sync,pending,2,Claude Code
+WS-009,Integration,Sync Agent-Hub agile data,Integrate Agent-Hub project sprint data with workspace view,medium,project-sync,pending,2,Claude Code
+WS-010,Documentation,Update workspace CLAUDE.md,Finalize workspace-level CLAUDE.md with all configurations,medium,workspace-setup,pending,1,Claude Code
+WS-011,Research,Study MCP architecture,Deep dive into MCP patterns from mcp-labs and agent-hub,low,project-sync,pending,4,Claude Code
+WS-012,Learning,Pydantic AI tutorial,Complete edu-pydantic-ai learning path,low,project-sync,pending,4,Moshe Beeri

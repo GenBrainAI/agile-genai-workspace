@@ -1,8 +1,8 @@
 {
   "project": {
-    "name": "Agile GenAI",
-    "title": "Agile GenAI Sprint Dashboard",
-    "description": "CSV-based agile task management for AI-assisted development"
+    "name": "Workspace Orchestration",
+    "title": "Projects Workspace Dashboard",
+    "description": "Workspace-level task management for multi-project orchestration"
   },
   "files": {
     "backlog": "backlog.csv",
@@ -12,7 +12,7 @@
   },
   "ui": {
     "showStats": true,
-    "showBacklog": false,
+    "showBacklog": true,
     "defaultView": "kanban",
     "defaultTheme": "dark"
   },
@@ -31,30 +31,30 @@
     }
   },
   "team": {
+    "members": [
+      "Moshe Beeri",
+      "Claude Code"
+    ],
     "roles": [
-      "Product Owner",
-      "Scrum Master",
+      "Architect",
       "Developer",
-      "Designer",
       "AI Agent",
+      "Researcher",
       "Unassigned"
     ],
     "categories": [
-      "Backend",
-      "Frontend",
+      "Skill-Evolution",
+      "Project-Management",
+      "Learning",
+      "Research",
       "Integration",
-      "Testing",
-      "Security",
       "Documentation",
-      "DevOps",
-      "Design",
       "Configuration",
-      "Core",
-      "Feature",
-      "Community",
-      "UI",
-      "Release",
-      "Cleanup"
+      "Cleanup",
+      "RE4AI",
+      "Agent-Hub",
+      "MCP-Labs",
+      "Genbrain"
     ],
     "priorities": [
       "critical",
@@ -62,5 +62,12 @@
       "medium",
       "low"
     ]
+  },
+  "projects": {
+    "active": ["re4ai", "agent-hub"],
+    "learning": ["edu-pydantic-ai", "mcp-labs", "genkit-intro"],
+    "reference": ["aigithubs", "genbrain"],
+    "tools": ["agile-genai", "milstd"],
+    "dormant": []
   }
 }
