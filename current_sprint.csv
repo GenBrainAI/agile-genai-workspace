@@ -1,4 +1,4 @@
 id,title,category,status,priority,owner,due_date,estimate_hours,progress_percent,dependencies,notes
 WS-001,Setup workspace agile-genai,Configuration,completed,high,Claude Code,2026-01-01,1,100,,Cloned from GenBrainAI/agile-genai-workspace and configured for workspace level
-WS-002,Catalog active projects,Documentation,in_progress,high,Claude Code,2026-01-02,2,25,WS-001,Exploring project directories
-WS-010,Update workspace CLAUDE.md,Documentation,pending,medium,Claude Code,2026-01-03,1,0,"WS-001,WS-002",Waiting for project catalog completion
+WS-002,Catalog active projects,Documentation,completed,high,Claude Code,2026-01-02,2,100,WS-001,Created projects-catalog.md with full project inventory
+WS-010,Update workspace CLAUDE.md,Documentation,completed,medium,Claude Code,2026-01-03,1,100,"WS-001,WS-002",Updated with workspace structure and project links
